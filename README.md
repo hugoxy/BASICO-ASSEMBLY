@@ -1,11 +1,11 @@
-# BASICO-ASSEMBLY
+# BASICO-ASSEMBLY #
 TUTORIAL BASICO INICIANTES ASSEMBLY MIPS
 PROGRAMAS BASICOS EM ASSEMBLY ONDE POSSIBILITA O CALCULO DA MEDIA PONDERADA DE ACORDO COM A NOTA DO ENEM!
 IDERAL PARA CALCULAR SUA NOTA MEDIA EM UNIVERSIDADE ONDE SE TEM PESO MAIOR EM DETERMINADA MATERIA!
 
 EXEMPLO:
-##ASSEMBLY CODE##
-----
+## ASSEMBLY CODE ##
+
   .data #Dados
   mensagem:  .asciiz "Calcule sua media do ENEM em universidades que tem um maior peso em determinada materia!\n" #declara variavel "string" ja com texto.
   mensagem1: .asciiz "Qual sua nota em Linguagens, Códigos e suas Tecnologias:\n" #declara variavel "string" ja com texto.
@@ -81,7 +81,7 @@ main:
   syscall
   move $t9,$v0 #t9= peso redação
   
-  mul $s0,$t0,$t1 # x*p  #CALCULOS MATEMATICOS ************************************************************************************
+  mul $s0,$t0,$t1 # x*p  # CALCULOS MATEMATICOS #
   mul $s1,$t2,$t3 # x*p
   mul $s2,$t4,$t5 # x*p
   mul $s3,$t6,$t7 # x*p
