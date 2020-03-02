@@ -1,11 +1,16 @@
-# BASICO-ASSEMBLY # (PARA MELHOR VISUALIZAÇÃO PRESSIONE EM RAW)
-TUTORIAL BASICO INICIANTES ASSEMBLY MIPS
-PROGRAMAS BASICOS EM ASSEMBLY ONDE POSSIBILITA O CALCULO DA MEDIA PONDERADA DE ACORDO COM A NOTA DO ENEM!
-IDERAL PARA CALCULAR SUA NOTA MEDIA EM UNIVERSIDADE ONDE SE TEM PESO MAIOR EM DETERMINADA MATERIA!
+## → BÁSICO ASSEMBLY MIPS (MARS) ## 
+```
+Tutorial Básico de Assembly Mips (Plataforma Mars)
 
-EXEMPLO:
-## ASSEMBLY CODE ##
+Programas básicos em Assembly Mips onde possibilita o cálculo da média ponderada de acordo com a nota do Enem!
+Ideal para calcular sua nota média em universidade onde se tem peso maior em determinada matéria!
+```
+## → YOUTUBE VIDEO TUTORIAL ##
 
+https://www.youtube.com/watch?v=mQeyDkqXffU
+
+## → ASSEMBLY CODE ##
+```
   .data #Dados
   mensagem:  .asciiz "Calcule sua media do ENEM em universidades que tem um maior peso em determinada materia!\n" #declara variavel "string" ja com texto.
   mensagem1: .asciiz "Qual sua nota em Linguagens, Códigos e suas Tecnologias:\n" #declara variavel "string" ja com texto.
@@ -103,10 +108,11 @@ main:
   syscall
   li $v0, 10  #finaliza
   syscall
+  ```
   
   
-  
-#### MESMO CODIGO EM C# PARA COMPARAÇÕES!##
+## → MESMO CODIGO EM C# PARA COMPARAÇÕES##
+```
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -155,3 +161,9 @@ namespace CalculaMediaPonderada
         }
     }
 }
+```
+
+## → DOWNLOAD DO COMPILADOR MIPS MARS##
+```
+ http://courses.missouristate.edu/KenVollmar/mars/download.htm
+```
