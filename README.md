@@ -11,16 +11,26 @@ https://www.youtube.com/watch?v=mQeyDkqXffU
 
 ## → ASSEMBLY CODE ##
 ```
-  .data #Dados
-  mensagem:  .asciiz "Calcule sua media do ENEM em universidades que tem um maior peso em determinada materia!\n" #declara variavel "string" ja com texto.
-  mensagem1: .asciiz "Qual sua nota em Linguagens, Códigos e suas Tecnologias:\n" #declara variavel "string" ja com texto.
-  mensagem2: .asciiz "Qual sua nota em Matemática e suas Tecnologias:\n" #declara variavel "string" ja com texto.
-  mensagem3: .asciiz "Qual sua nota em Ciências da Natureza e suas Tecnologias:\n" #declara variavel "string" ja com texto.
-  mensagem4: .asciiz "Qual sua nota em Ciências Humanas e suas Tecnologias::\n" #declara variavel "string" ja com texto.
-  mensagem5: .asciiz "Qual sua nota na redação:\n" #declara variavel "string" ja com texto.
-  mensagem6: .asciiz "A sua  nota com base na média ponderada é:\n" #declara variavel "string" ja com texto.
-  mensagem7: .asciiz "Qual o peso desta materia:\n" #declara variavel "string" ja com texto.
-  .text #Instruções
+  .data 
+  #Dados
+  mensagem:  .asciiz "Calcule sua media do ENEM em universidades que tem um maior peso em determinada materia!\n" 
+  #declara variavel "string" ja com texto.
+  mensagem1: .asciiz "Qual sua nota em Linguagens, Códigos e suas Tecnologias:\n"
+  #declara variavel "string" ja com texto.
+  mensagem2: .asciiz "Qual sua nota em Matemática e suas Tecnologias:\n" 
+  #declara variavel "string" ja com texto.
+  mensagem3: .asciiz "Qual sua nota em Ciências da Natureza e suas Tecnologias:\n"
+  #declara variavel "string" ja com texto.
+  mensagem4: .asciiz "Qual sua nota em Ciências Humanas e suas Tecnologias::\n"
+  #declara variavel "string" ja com texto.
+  mensagem5: .asciiz "Qual sua nota na redação:\n" 
+  #declara variavel "string" ja com texto.
+  mensagem6: .asciiz "A sua  nota com base na média ponderada é:\n" 
+  #declara variavel "string" ja com texto.
+  mensagem7: .asciiz "Qual o peso desta materia:\n"
+  #declara variavel "string" ja com texto.
+  .text 
+  #Instruções
 main: 
   li $v0, 4
   la $a0, mensagem # imprime mensagem do proposito do programa!
